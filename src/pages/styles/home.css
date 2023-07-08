@@ -1,0 +1,174 @@
+@import '../Elements/simplelineicons/css/simple-line-icons.css';
+@import url("https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap");
+header {
+  width: 100%;
+  height: 100px;
+}
+header .content {
+  width: 90%;
+  margin: -50px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+header .content #logo {
+  width: 300px;
+  height: 100px;
+}
+header .content #logo img {
+  width: 120px;
+  height: 100%;
+}
+header .content #pesquisa {
+  width: 50%;
+  min-width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .content #pesquisa input {
+  width: 350px;
+  height: 40px;
+  padding: 3px 10px;
+  border-radius: 10px 0 0 10px;
+  font-size: 1.3rem;
+}
+header .content #pesquisa select {
+  width: 200px;
+  height: 40px;
+  padding: 3px 10px;
+  font-size: 1.3rem;
+}
+header .content #pesquisa button {
+  width: 80px;
+  height: 40px;
+  padding: 3px 10px;
+  border-radius: 0 10px 10px 0;
+  background-color: #0B167D;
+  font-size: 1.3rem;
+}
+header .content #pesquisa button img {
+  width: 25px;
+  height: 25px;
+}
+header .content #menu-usuario {
+  width: 15%;
+  min-width: 120px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+header .content #menu-usuario ul li {
+  list-style: none;
+  color: #736F6F;
+  display: inline;
+  font-size: 40px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+header .menuBar {
+  width: 100vw;
+  height: 50px;
+  background-color: #0B167D;
+}
+header .menuBar #menuArea {
+  width: 90%;
+  margin: 20px auto 0 auto;
+  font-family: "Inika", serif;
+  display: flex;
+  justify-content: space-between;
+}
+header .menuBar #menuArea #areaCategoria {
+  width: 320px;
+  height: 60px;
+  margin: -10px 0 0 0;
+  border-radius: 10px 10px 0 0;
+  background-color: #1235AF;
+  display: grid;
+  place-items: center;
+}
+header .menuBar #menuArea #areaCategoria h1 {
+  color: #FFFFFF;
+}
+header .menuBar #menuArea #navMenu {
+  width: calc(100% - 320px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5px;
+}
+header .menuBar #menuArea #navMenu ul {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menuBar #menuArea #navMenu ul li {
+  width: 16.6666666667%;
+  height: 100%;
+  list-style: none;
+  color: #d2cfcf;
+  display: inline;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 20px;
+  display: grid;
+  place-items: center;
+}
+header .menuBar #menuArea #navMenu ul li:hover {
+  background-color: #1235AF;
+  color: #FFFFFF;
+}
+
+#banner {
+  width: 100%;
+  height: 600px;
+}
+#banner #banner-content {
+  width: 90%;
+  height: 100%;
+  width: 90%;
+  margin: 70px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#banner #banner-content #categ {
+  width: 320px;
+  height: 100%;
+  border: 0.8px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+}
+#banner #banner-content #categ ul {
+  margin-top: 30px;
+}
+#banner #banner-content #categ ul li {
+  list-style-type: none;
+  margin-top: 10px;
+  font-size: 1.1rem;
+  width: 320px;
+  height: 40px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+}
+#banner #banner-content #categ ul li:hover {
+  color: #FFFFFF;
+  background-color: #1235AF;
+}
+#banner #banner-content #categ ul li i {
+  margin-right: 10px;
+}
+#banner #banner-content #banner-img {
+  width: calc(100% - 320px);
+  height: 100%;
+}
+#banner #banner-content #banner-img img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=home.css.map */

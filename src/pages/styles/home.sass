@@ -1,0 +1,179 @@
+@import '../Elements/simplelineicons/css/simple-line-icons.css'
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap')
+@import "variable"
+
+header
+  width: 100%
+  height: 100px
+
+  & .content
+    width: 90%
+    margin: -50px auto 0 auto
+    display: flex
+    justify-content: space-between
+
+    & #logo
+      width: 300px
+      height: 100px
+
+      & img
+        width: 120px
+        height: 100%
+
+    & #pesquisa
+      width: 50%
+      min-width: 400px
+      height: 100px
+      display: flex
+      justify-content: center
+      align-items: center
+
+      & input
+        width: 350px
+        height: 40px
+        padding: 3px 10px
+        border-radius: 10px 0 0 10px
+        font-size: 1.3rem
+
+      & select
+        width: 200px
+        height: 40px
+        padding: 3px 10px
+        font-size: 1.3rem
+
+      & button
+        width: 80px
+        height: 40px
+        padding: 3px 10px
+        border-radius: 0 10px 10px 0
+        background-color: #0B167D
+        font-size: 1.3rem
+
+        & img
+          width: 25px
+          height: 25px
+
+    & #menu-usuario
+      width: 15%
+      min-width: 120px
+      height: 100px
+      display: flex
+      justify-content: center
+      align-items: center
+      margin-left: 5px
+
+      & ul
+        & li
+          list-style: none
+          color: #736F6F
+          display: inline
+          font-size: 40px
+          cursor: pointer
+          margin: 0 10px
+
+
+  & .menuBar
+    width: 100vw
+    height: 50px
+    background-color: #0B167D
+
+    & #menuArea
+      width: 90%
+      margin: 20px auto 0 auto
+      font-family: "Inika", serif
+      display: flex
+      justify-content: space-between
+
+      & #areaCategoria
+        width: 320px
+        height: 60px
+        margin: -10px 0 0 0
+        border-radius: 10px 10px 0 0
+        background-color: $sec_color
+        display: grid
+        place-items: center
+
+        & h1
+          color: $pry_color
+
+      & #navMenu
+        width: calc(100% - 320px)
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin-left: 5px
+
+        & ul
+          height: 100%
+          width: 90%
+          display: flex
+          justify-content: space-between
+          align-items: center
+
+          & li
+            width: calc(100% / 6)
+            height: 100%
+            list-style: none
+            color: #d2cfcf
+            display: inline
+            font-size: 1.5rem
+            cursor: pointer
+            margin: 0 20px
+            display: grid
+            place-items: center
+
+            &:hover
+              background-color: $sec_color
+              color: $pry_color
+
+#banner
+  width: 100%
+  height: 600px
+
+  & #banner-content
+    width: 90%
+    height: 100%
+    width: 90%
+    margin: 70px auto 0 auto
+    display: flex
+    justify-content: space-between
+
+    & #categ
+      width: 320px
+      height: 100%
+      border: .8px solid rgba(0,0,0,.1)
+      display: flex
+      justify-content: center
+
+      & ul
+        margin-top: 30px
+
+        & li
+          list-style-type: none
+          margin-top: 10px
+          font-size: 1.1rem
+          width: 320px
+          height: 40px
+          padding-left: 20px
+          display: flex
+          align-items: center
+
+          &:hover
+            color: $pry_color
+            background-color: $sec_color
+
+          & i
+            margin-right: 10px
+
+    & #banner-img
+      width: calc(100% - 320px)
+      height: 100%
+
+      & img
+        width: 100%
+        height: 100%
+
+
+
+
+
